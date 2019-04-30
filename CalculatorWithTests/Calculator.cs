@@ -1,32 +1,31 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
 
 namespace CalculatorWithTests
 {
-    class Calculator
+    public class Calculator
     {
-        static int Add(List<int>numbersToAdd)
+        public int Add(int number1, int number2)
         {
             throw new NotImplementedException();
         }
 
-        static int Substract(List<int>numbersToSubstract)
+        public int Subtract(int number1, int number2t)
         {
             throw new NotImplementedException();
         }
 
-        static int Multiply(List<int> numbersToMultiply)
+        public int Multiply(int number1, int number2)
         {
             throw new NotImplementedException();
         }
 
-        static int Divide(List<int> numbersToDivide)
+        public int Divide(int number1, int number2)
         {
             throw new NotImplementedException();
         }
 
-        static int Factoial(List<int> numbersToFactorialize)
+        public int Factorial(int numberToFactorialize)
         {
             throw new NotImplementedException();
         }
